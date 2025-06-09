@@ -4,6 +4,7 @@ import upcomingEventElement from "../UpcomingEventSlice";
 
 
 const BASE_URL = import.meta.env.VITE_API_BASE
+console.log(BASE_URL)
 const API_KEY = import.meta.env.VITE_API_CODE
 
 const BASE_URL2 = import.meta.env.VITE_API_BASE2
@@ -36,7 +37,7 @@ export const fetchUpcomingMiddleware = async (dispatch) => {
         const data = await resp.json()
         //console.log(data)
         dispatch(actionEle.upcomingEventData(data))
-        //console.log("Data fetched Successfully") //checking middleware working
+        console.log("Data fetched Successfully") //checking middleware working
     } catch (err) {
         dispatch(actionEle.userError())
     }
