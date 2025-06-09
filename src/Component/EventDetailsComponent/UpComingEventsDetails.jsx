@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import { FaLocationDot } from "react-icons/fa6";
+import upcomingEventImagesFiles from "./UpcomingEventImages"
 
 function UpComingEventsDetails(props) {
     const { futureEvents, idxele } = props
@@ -17,7 +18,7 @@ function UpComingEventsDetails(props) {
     });
 
     const distance = Math.round(Number(distanceKm)) + "Km" //which is used to round our distance 
-    const backgroundImg = `bg-${idxele}`
+    const backgroundImg = upcomingEventImagesFiles[idxele]
     //console.log(backgroundImg)
 
 
@@ -25,7 +26,7 @@ function UpComingEventsDetails(props) {
     return (
 
         <div className="upcoming-event-card">
-            <div className={`upcoming-event-image ${backgroundImg}`}>
+            <div className="upcoming-event-image" style={{ backgroundImage: `url(${backgroundImg})` }}>
                 <span className="upcoming-event-date">{formatted}</span>
             </div>
             <div className="upcoming-event-info">
