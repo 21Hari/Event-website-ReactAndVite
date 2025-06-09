@@ -1,0 +1,109 @@
+.login-container {
+    background-image: url("https://img.freepik.com/premium-photo/defocused-image-illuminated-christmas-lights_1048944-9589525.jpg?ga=GA1.1.1721817151.1735366175&semt=ais_hybrid&w=740 ");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card-container {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 255, 0.1);
+    border: 1px soild rgba(255, 255, 255, 255, 0.3);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.login-label {
+    padding-bottom: 4px;
+    color: #6e6b6b;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.login-input {
+
+    background-color: rgba(255, 255, 255, 255, 0.5);
+    color: rgb(80, 77, 77);
+    border: 1px solid rgba(255, 255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    outline: none;
+}
+
+login-input::placeholder {
+    color: rgb(80, 77, 77);
+}
+
+.login-button {
+    background-color: #00bcd4;
+    background: linear-gradient(135deg, #00bcd4, #2196f3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+.login-not-register {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-not-register :hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+/*signup*/
+.signup-container {
+    background-image: url("https://img.freepik.com/free-photo/top-view-birthday-elements-with-copy-space_23-2148726093.jpg?ga=GA1.1.1721817151.1735366175&semt=ais_hybrid&w=740");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-card-container {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 255, 0.1);
+    border: 1px soild rgba(255, 255, 255, 255, 0.3);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.sigup-heading {
+    font-weight: bolder;
+    font-family: "Roboto";
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.singup-card-container {
+    backdrop-filter: blur(10px);
+    background-color: #ccc;
+    border: 1px soild rgba(255, 255, 255, 255, 0.3);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+}

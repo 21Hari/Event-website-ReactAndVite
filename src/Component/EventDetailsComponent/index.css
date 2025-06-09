@@ -1,0 +1,173 @@
+.card-scroll {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+}
+
+.card-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.card-scroll::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+}
+
+.event-card {
+    flex: 0 0 220px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    scroll-snap-align: start;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.event-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+}
+
+.card-content {
+    position: relative;
+    z-index: 3;
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.card-content-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.Winter {
+    background-image: url("/public/Rectangle\ 4-1.svg");
+}
+
+.Spring {
+    background-image: url("/public/Rectangle\ 5-2.svg");
+}
+
+.Snowy {
+    background-image: url("/public/Rectangle\ 4.svg");
+}
+
+.Sunny {
+    background-image: url("/public/Rectangle\ 34.svg");
+}
+
+.Tropic {
+    background-image: url("/public/Rectangle\ 2.svg");
+}
+
+.Frozen {
+    background-image: url("/public/Rectangle.svg");
+
+}
+
+.Cloudy {
+    background-image: url("/public/Rectangle\ 5.svg");
+}
+
+.Sunlit {
+    background-image: url("/public/Rectangle\ 4\ \(1\).svg");
+}
+
+/*upcomming Event */
+
+.upcoming-event-card {
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-family: sans-serif;
+    margin: 2rem;
+}
+
+.upcoming-event-image {
+    position: relative;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.upcoming-event-date {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+}
+
+.upcoming-event-info {
+    padding: 10px 12px;
+}
+
+.upcoming-event-title {
+    font-size: 1rem;
+    margin: 4px 0;
+    color: #222;
+}
+
+.upcoming-event-meta {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.bg-0 {
+    background-image: url("/public/up1.svg");
+}
+
+.bg-1 {
+    background-image: url("/public/up2.svg");
+}
+
+.bg-2 {
+    background-image: url("/public/up3.svg");
+}
+
+.bg-3 {
+    background-image: url("/public/up4.svg");
+}
+
+.bg-4 {
+    background-image: url("/public/up5.svg");
+}
+
+.bg-5 {
+    background-image: url("/public/up6.svg");
+}
+
+.bg-6 {
+    background-image: url("/public/up7.svg");
+}
+
+.bg-7 {
+    background-image: url("/public/up8.svg");
+}
+
+.bg-8 {
+    background-image: url("/public/up9.svg");
+}
+
+.bg-9 {
+    background-image: url("/public/up10.svg");
+}
