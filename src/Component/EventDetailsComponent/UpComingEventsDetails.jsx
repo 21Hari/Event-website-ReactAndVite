@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import { FaLocationDot } from "react-icons/fa6";
-import upcomingEventImagesFiles from "./UpcomingEventImages"
+import upcomingEventImagesFiles from "./UpcomingEventImages.js"
 
 function UpComingEventsDetails(props) {
     const { futureEvents, idxele } = props
