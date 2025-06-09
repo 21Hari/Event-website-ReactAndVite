@@ -55,36 +55,36 @@
 }
 
 .Winter {
-    background-image: url('/recoment-1.svg');
+    background-image: url('../assets/recoment-1.svg');
 }
 
 .Spring {
-    background-image: url("/recoment-2.svg");
+    background-image: url("../assets/recoment-2.svg");
 }
 
 .Snowy {
-    background-image: url("/recoment-7.svg");
+    background-image: url("../assets/recoment-7.svg");
 }
 
 .Sunny {
-    background-image: url("/recoment-4.svg");
+    background-image: url("../assets/recoment-4.svg");
 }
 
 .Tropic {
-    background-image: url("/recoment-5.svg");
+    background-image: url("../assets/recoment-5.svg");
 }
 
 .Frozen {
-    background-image: url("/recoment-6.svg");
+    background-image: url("../assets/recoment-6.svg");
 
 }
 
 .Cloudy {
-    background-image: url("/recoment-7.svg");
+    background-image: url("../assets/recoment-7.svg");
 }
 
 .Sunlit {
-    background-image: url("/recoment-8.svg");
+    background-image: url("../assets/recoment-8.svg");
 }
 
 /*upcomming Event */
@@ -133,41 +133,41 @@
 }
 
 .bg-0 {
-    background-image: url("/up1.svg");
+    background-image: url("../assets/up1.svg");
 }
 
 .bg-1 {
-    background-image: url("/up2.svg");
+    background-image: url("../assets/up2.svg");
 }
 
 .bg-2 {
-    background-image: url("/up3.svg");
+    background-image: url("../assets/up3.svg");
 }
 
 .bg-3 {
-    background-image: url("/up4.svg");
+    background-image: url("../assets/up4.svg");
 }
 
 .bg-4 {
-    background-image: url("/up5.svg");
+    background-image: url("../assets/up5.svg");
 }
 
 .bg-5 {
-    background-image: url("/up6.svg");
+    background-image: url("../assets/up6.svg");
 }
 
 .bg-6 {
-    background-image: url("/up7.svg");
+    background-image: url("../assets/up7.svg");
 }
 
 .bg-7 {
-    background-image: url("/up8.svg");
+    background-image: url("../assets/up8.svg");
 }
 
 .bg-8 {
-    background-image: url("/up9.svg");
+    background-image: url("../assets/up9.svg");
 }
 
 .bg-9 {
-    background-image: url("/up10.svg");
+    background-image: url("../assets/up10.svg");
 }
