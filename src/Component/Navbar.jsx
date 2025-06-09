@@ -14,6 +14,7 @@ import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import upcomingEventElement from '../Redux/UpcomingEventSlice';
 
+
 const actionsElement = upcomingEventElement.actions
 function Navbar() {
     const navigate = useNavigate()
@@ -96,8 +97,10 @@ function Navbar() {
 
                 </div>
             </nav>
+
             <RecommendedShow />
             <UpcomingEvent />
+
         </div>
 
 

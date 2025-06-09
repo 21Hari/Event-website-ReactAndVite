@@ -1,13 +1,15 @@
 import React from 'react'
 import './index.css'
 import { IoLocationSharp } from "react-icons/io5";
+import RecommentImages from './RecomentEventImages.js'
 
 function RecommendedEvents(props) {
-    const { events } = props
+    const { events, idxele } = props
     const { eventName, cityName, date, weather, distanceKm } = events
     //console.log(eventName, cityName, date, weather, imgUrl)
+    console.log(idxele)
 
-    const backimage = eventName.slice(0, 6)
+
     //console.log(backimage)
 
 
@@ -19,7 +21,8 @@ function RecommendedEvents(props) {
 
     const distance = Math.round(Number(distanceKm)) + "Km" //which is used to round our distance 
 
-
+    const backgroundImg = RecommentImages[idxele]
+    //console.log(backgroundImg)
 
 
 
@@ -27,7 +30,7 @@ function RecommendedEvents(props) {
     return (
 
 
-        <div className={`event-card ${backimage}`}>
+        <div className="event-card" style={{ backgroundImage: `URL(${backgroundImg})` }}>
             <div className="card-content">
                 <div className="card-content-items">
                     <h3>{eventName}</h3>

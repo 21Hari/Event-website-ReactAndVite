@@ -3,6 +3,8 @@ import './index.css'
 import { FaLocationDot } from "react-icons/fa6";
 import upcomingEventImagesFiles from "./UpcomingEventImages.js"
 
+
+
 function UpComingEventsDetails(props) {
     const { futureEvents, idxele } = props
 
@@ -26,6 +28,7 @@ function UpComingEventsDetails(props) {
     return (
 
         <div className="upcoming-event-card">
+
             <div className="upcoming-event-image" style={{ backgroundImage: `url(${backgroundImg})` }}>
                 <span className="upcoming-event-date">{formatted}</span>
             </div>
