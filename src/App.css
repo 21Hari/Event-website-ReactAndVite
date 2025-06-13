@@ -232,11 +232,23 @@
 }
 
 .background-container {
+
   background-image: url("https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814803/assets/frnt-screen_opua1l.jpg?_s=public-apps");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
+
   width: 100%;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  backdrop-filter: brightness(0.9);
+
+
+
 }
 
 .recomented-text-element {
