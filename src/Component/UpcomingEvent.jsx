@@ -29,7 +29,12 @@ function UpcomingEvent() {
 
             </div>
             <div className="upcoming-container-element">
-                {loading && <p> <TailSpin height={60} width={60} color="#000" /></p>}
+                {loading && (
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <TailSpin height={60} width={60} color="#000" />
+                    </div>
+
+                )}
                 {error && <p>Error loading events</p>}
                 {!loading && !error && filteredElement.map((item, idx) => (
                     <UpComingEventsDetails key={idx} futureEvents={item} idxele={idx} />

@@ -1,25 +1,19 @@
-import up0 from '../../assets/up1.svg'
-import up1 from '../../assets/up2.svg'
-import up2 from '../../assets/up3.svg'
-import up3 from '../../assets/up4.svg'
-import up4 from '../../assets/up5.svg'
-import up5 from '../../assets/up6.svg'
-import up6 from '../../assets/up7.svg'
-import up7 from '../../assets/up8.svg'
-import up8 from '../../assets/up9.svg'
-import up9 from '../../assets/up10.svg'
+
 
 const upcomingEventImagesFiles = [
-    up0,
-    up1,
-    up2,
-    up3,
-    up4,
-    up5,
-    up6,
-    up7,
-    up8,
-    up9
+
+
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814838/assets/up2_trj0g7.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814845/assets/up1_uutiyd.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814845/assets/up3_q1f9l7.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814852/assets/up4_he3fjm.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814853/assets/up6_wt27ts.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814855/assets/up8_tuluhy.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814854/assets/up5_d2qlvg.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814863/assets/up7_tbixdn.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814864/assets/up9_jywbk4.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814829/assets/up10_dzrrfj.jpg?_s=public-apps"
+
 ]
 
 export default upcomingEventImagesFiles

@@ -31,7 +31,7 @@ function RecommendedShow() {
     return (
 
         <div>
-            <div className='background-container' style={{ backgroundImage: `URL(${backgroundImage})` }}>
+            <div className='background-container'>
                 <div className='recomented-text-element'>
                     <h1>Discover Exciting Events Happening Near You - Stay Tuned for Updates!</h1>
                     <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliwust odia mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>

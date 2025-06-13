@@ -69,7 +69,7 @@ function Navbar() {
                             <p>categories</p>
                         </div>
                         <div className='nav-input-container'>
-                            <input type='input' className='nav-container-input ' placeholder='DJI phantom' onChange={searchElement} />
+                            <input type='input' id="form" className='nav-container-input ' placeholder='DJI phantom' onChange={searchElement} />
                             < IoSearchOutline />
                         </div>
                     </div>

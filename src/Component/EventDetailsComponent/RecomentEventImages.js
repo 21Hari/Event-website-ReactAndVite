@@ -1,14 +1,17 @@
-import rp0 from '../../assets/recoment-1.svg'
-import rp1 from '../../assets/recoment-2.svg'
-import rp2 from '../../assets/recoment-3.svg'
-import rp3 from '../../assets/recoment-4.svg'
-import rp4 from '../../assets/recoment-5.svg'
-import rp5 from '../../assets/recoment-6.svg'
-import rp6 from '../../assets/recoment-7.svg'
-import rp7 from '../../assets/recoment-8.svg'
+
 
 const RecommentImages = [
-    rp0, rp1, rp2, rp3, rp4, rp5, rp6, rp7
+
+
+
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814778/assets/recoment-1_noyel0.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814841/assets/recoment-3_a6ds9b.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814777/assets/recoment-4_wrgc85.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814778/assets/recoment-5_yaqfgc.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814820/assets/recoment-6_hl0hga.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814826/assets/recoment-7_h6zt7d.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814830/assets/recoment-8_fibose.jpg?_s=public-apps",
+    "https://res.cloudinary.com/dmdxccmkl/image/upload/fl_preserve_transparency/v1749814841/assets/recoment-3_a6ds9b.jpg?_s=public-apps"
 ]
 
 export default RecommentImages
